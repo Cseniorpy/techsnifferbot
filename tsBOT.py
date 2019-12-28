@@ -19,7 +19,7 @@ bot.remove_command(help)
 def read_token():
     with open("token.txt", "r") as f:
         lines = f.readlines()
-        return lines[0].strip()
+        return lines[0].strip()+lines[1].strip()
 
 newtoken = read_token()
 
