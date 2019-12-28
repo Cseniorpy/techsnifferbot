@@ -1,0 +1,5 @@
+emoji
+asyncio
+datetime
+numpy
+discord
