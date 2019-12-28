@@ -29,7 +29,7 @@ newtoken = read_token()
 
 @bot.event
 async def on_ready():
-    game = discord.Game("Google <DSC>")
+    game = discord.Game("Sniffing Technology")
     await bot.change_presence(status=discord.Status.online, activity=game)
     print("{} has logged in..".format(bot.user.name))
 
